@@ -1,0 +1,44 @@
+.h{
+    width: 200px;
+    height: 370px;
+   background:rgb(0, 0, 0) ;
+   padding-top: 7px;
+   border-radius: 20px;
+   position: relative;
+   
+}
+.s::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 43px;
+    background: #555555;
+    top: 8px;
+     left: 100px;}
+
+     .s::before{
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: #817373;
+        top: 4px;
+        left: 81px;
+        border-radius: 50px;}
+
+
+.s{
+    width: 176px;
+    height: 300px;
+    background: #0dc3ff;
+    margin: 12px;
+}
+.z{
+    width: 30px;
+    height: 30px;
+    background: #757272;
+    margin-left: 40%;
+    border-radius: 50px;
+    border: 2px solid #444;
+    
+}
